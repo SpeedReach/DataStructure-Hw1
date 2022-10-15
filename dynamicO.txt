@@ -1,0 +1,53 @@
+=============
+k = 15, n = 32768
+push took: 2
+iterate took: 0
+
+=============
+k = 16, n = 65536
+push took: 5
+iterate took: 1
+
+=============
+k = 17, n = 131072
+push took: 8
+iterate took: 2
+
+=============
+k = 18, n = 262144
+push took: 18
+iterate took: 4
+
+=============
+k = 19, n = 524288
+push took: 31
+iterate took: 8
+
+=============
+k = 20, n = 1048576
+push took: 62
+iterate took: 16
+============
+k = 21, n = 2097152
+push took: 136
+iterate took: 34
+
+=============
+k = 22, n = 4194304
+push took: 243
+iterate took: 64
+
+=============
+k = 23, n = 8388608
+push took: 514
+iterate took: 139
+
+=============
+k = 24, n = 16777216
+push took: 1008
+iterate took: 263
+
+=============
+k = 25, n = 33554432
+push took: 2110
+addUp took: 559

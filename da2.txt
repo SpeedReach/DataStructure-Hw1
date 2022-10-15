@@ -1,0 +1,32 @@
+k = 15, n = 32768
+push took: 1
+addUp took: 0  result:146982
+
+k = 16, n = 65536
+push took: 6
+addUp took: 2  result:293023
+
+k = 17, n = 131072
+push took: 9
+addUp took: 1  result:588792
+
+k = 18, n = 262144
+push took: 20
+addUp took: 4  result:1181592
+
+k = 19, n = 524288
+push took: 34
+addUp took: 7  result:2359154
+
+k = 20, n = 1048576
+
+k = 23, n = 8388608
+addUp took: 2171  result:603944942
+
+k = 28, n = 268435456
+push took: 15668
+addUp took: 4548  result:1207859026
+
+k = 29, n = 536870912
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc

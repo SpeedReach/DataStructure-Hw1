@@ -1,0 +1,59 @@
+k = 15, n = 32768
+push took: 3
+addUp took: 2  result:148294
+
+k = 16, n = 65536
+push took: 4
+addUp took: 2  result:294115
+
+k = 17, n = 131072
+push took: 8
+addUp took: 3  result:590602
+
+k = 18, n = 262144
+push took: 17
+addUp took: 4  result:1180310
+
+k = 19, n = 524288
+push took: 32
+addUp took: 8  result:2360658
+
+k = 20, n = 1048576
+push took: 62
+addUp took: 18  result:4720374
+
+k = 21, n = 2097152
+push took: 125
+addUp took: 33  result:9438066
+
+k = 22, n = 4194304
+push took: 243
+addUp took: 67  result:18875994
+
+k = 23, n = 8388608
+push took: 482
+addUp took: 140  result:37750582
+
+k = 24, n = 16777216
+push took: 967
+addUp took: 272  result:75505300
+
+k = 25, n = 33554432
+push took: 1943
+addUp took: 535  result:151008166
+
+k = 26, n = 67108864
+push took: 3917
+addUp took: 1059  result:301950030
+
+k = 27, n = 134217728
+push took: 7779
+addUp took: 2147  result:603903682
+
+k = 28, n = 268435456
+push took: 16077
+addUp took: 4484  result:1207882594
+
+k = 29, n = 536870912
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
