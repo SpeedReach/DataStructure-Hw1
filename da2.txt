@@ -1,31 +1,50 @@
 k = 15, n = 32768
-push took: 1
-addUp took: 0  result:146982
+push took: 3
+addUp took: 2  result:147642
 
 k = 16, n = 65536
-push took: 6
-addUp took: 2  result:293023
+push took: 4
+addUp took: 1  result:295585
 
 k = 17, n = 131072
-push took: 9
-addUp took: 1  result:588792
+push took: 11
+addUp took: 3  result:590630
 
 k = 18, n = 262144
-push took: 20
-addUp took: 4  result:1181592
+push took: 19
+addUp took: 5  result:1179142
 
-k = 19, n = 524288
-push took: 34
-addUp took: 7  result:2359154
+k = 21, n = 2097152
+push took: 126
+addUp took: 37  result:9435928
 
-k = 20, n = 1048576
+k = 22, n = 4194304
+push took: 241
+addUp took: 67  result:18875290
 
 k = 23, n = 8388608
-addUp took: 2171  result:603944942
+push took: 486
+addUp took: 143  result:37751534
+
+k = 24, n = 16777216
+push took: 1015
+addUp took: 270  result:75493528
+
+k = 25, n = 33554432
+push took: 1947
+addUp took: 555  result:150983062
+
+k = 26, n = 67108864
+push took: 3872
+addUp took: 1042  result:301980164
+
+k = 27, n = 134217728
+push took: 7724
+addUp took: 2100  result:603931550
 
 k = 28, n = 268435456
-push took: 15668
-addUp took: 4548  result:1207859026
+push took: 15476
+addUp took: 4174  result:1207834642
 
 k = 29, n = 536870912
 terminate called after throwing an instance of 'std::bad_alloc'
