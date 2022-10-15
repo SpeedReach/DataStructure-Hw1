@@ -1,0 +1,51 @@
+k = 15, n = 32768
+insert took: 9
+addUp took: 1  result:147394
+
+k = 16, n = 65536
+insert took: 17
+addUp took: 2  result:296401
+
+k = 17, n = 131072
+insert took: 31
+addUp took: 4  result:590254
+
+k = 18, n = 262144
+insert took: 73
+addUp took: 5  result:1182042
+
+k = 19, n = 524288
+insert took: 131
+addUp took: 12  result:2357762
+
+k = 20, n = 1048576
+insert took: 251
+addUp took: 23  result:4715482
+
+k = 21, n = 2097152
+insert took: 525
+addUp took: 49  result:9432528
+
+k = 22, n = 4194304
+insert took: 953
+addUp took: 97  result:18877168
+
+k = 23, n = 8388608
+insert took: 1977
+addUp took: 205  result:37746782
+
+k = 24, n = 16777216
+insert took: 3983
+addUp took: 382  result:75483740
+
+k = 25, n = 33554432
+insert took: 7851
+addUp took: 766  result:150989156
+
+k = 26, n = 67108864
+insert took: 15533
+addUp took: 1531  result:301957912
+
+k = 27, n = 134217728
+terminate called after throwing an instance of 'St9bad_alloc'
+  what():  std::bad_alloc
