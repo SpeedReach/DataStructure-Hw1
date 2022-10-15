@@ -1,5 +1,5 @@
 #include<iostream>
-#include<list>
+#include <list>
 #include<time.h>
 #include <math.h>
 #include <random>
@@ -9,10 +9,10 @@ using namespace std;
 void insert(list<short>& v,int amount){
     clock_t start = clock();
     for(long i=0;i<amount;i++){
-        v.push_back(rand()%10);
+        v.push_front(rand()%10);
     }
     clock_t end = clock();
-    cout<< "insert took: " << end - start << endl;
+    cout<< "push took: " << end - start << endl;
 }
 
 void addUp(list<short>& v){
@@ -24,6 +24,7 @@ void addUp(list<short>& v){
     clock_t end = clock();
     cout << "addUp took: "<< end- start << "  result:" << total << endl;
 }
+
 void run(int k){
     long n = pow(2,k);
     cout << endl;

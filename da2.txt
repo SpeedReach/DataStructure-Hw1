@@ -49,3 +49,11 @@ addUp took: 4174  result:1207834642
 k = 29, n = 536870912
 terminate called after throwing an instance of 'std::bad_alloc'
   what():  std::bad_alloc
+
+以下為預測
+push took: 30952
+addup took: 8348
+
+k=30
+push took: 61904
+addUp took: 16696

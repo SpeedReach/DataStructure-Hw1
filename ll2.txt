@@ -49,3 +49,15 @@ addUp took: 1627  result:302018846
 k = 27, n = 134217728
 terminate called after throwing an instance of 'St9bad_alloc'
   what():  std::bad_alloc
+
+k=28
+insert took: 31006
+addUp took: 3254
+
+k=29
+insert took: 62012
+addUp took: 6508
+
+k=30
+insert took: 124024
+addUp took: 13016
